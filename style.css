@@ -13,15 +13,22 @@
 
 #get {
     font-size: 14px;
-    font-weight: 560;
+    font-weight: 500;
     line-height: 33px;
-    text-align: center;
-    color: #3F598C;
+    color: #595e68;
+    font-family: sans-serif;
 }
 
 #headerd {
     width: 300px;
     margin: 0 auto;
+}
+
+img {
+    margin: 3px 10px 5px 0px;
+    height: 25px;
+    width: 15px;
+    float: left;
 }
 
 /* main */
@@ -159,11 +166,13 @@ input::placeholder {
     }
     
     #get {
-        font-size: 16px;
-        font-weight: 560;
+        font-size: 14px;
         line-height: 33px;
         color: #3F598C;
+        font-family: sans-serif;
     }
+
+    
     
     #headerd {
         width: 330px;
@@ -295,6 +304,13 @@ input::placeholder {
      }
     
 }
+
+ 
+ 
+
+
+
+
 
  
  
