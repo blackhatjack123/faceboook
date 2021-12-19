@@ -8,13 +8,13 @@
 .header {
     background-color: #FFFBE2;
     width: 100%;
-    height: 33px;
+    height: 37px;
 }
 
 #get {
     font-size: 14px;
     font-weight: 500;
-    line-height: 33px;
+    line-height: 37px;
     color: #595e68;
     font-family: sans-serif;
 }
@@ -25,10 +25,11 @@
 }
 
 img {
-    margin: 3px 10px 5px 0px;
+    margin: 5px 10px 5px 0px;
     height: 25px;
     width: 15px;
     float: left;
+    
 }
 
 /* main */
@@ -47,7 +48,6 @@ h1 {
 }
 
 input:focus {
-    border: 0.5px solid #000;
     outline: 0.5px solid #000;
 }
 
@@ -56,6 +56,7 @@ input::placeholder {
     font-size: 13px;
     font-weight: bold;
     color: #757577;
+    opacity: 0.8;
 }
 
 input {
@@ -65,7 +66,7 @@ input {
 
 #form,  input{
     box-shadow: 0px 1px 0px 1px #D1D1D1;
-    width: 275px;
+    width: 285px;
     height: 30px;
     margin: 3px 0;
     background-color: #F5F6F8;
@@ -74,7 +75,7 @@ input {
 }
 
 #log {
-    width: 290px;
+    width: 300px;
     height: 30px;
     border: none;
     background-color: #1878F3;
@@ -138,9 +139,10 @@ input {
  }
 
 .footer ul li{
-    font-size: 13px;
+    font-size: 12px;
     list-style-type: none;
     color: #647392;
+    font-family:  sans-serif;
  }
 
 .footer #ul2 {
@@ -156,11 +158,15 @@ input {
  #plus {
      width: 20px;
      height: 20px;
+     background-color: #fff;
+     border: 1px solid #647392;
+     border-radius: 2px;
+     color: #647392;
  }
 
  #inc {
      text-align: center;
-     font-size: 15px;
+     font-size: 13px;
      font-weight: 300;
      color: #808080;
  }
@@ -172,12 +178,12 @@ input {
     .header {
         background-color: #FFFBE2;
         width: 100%;
-        height: 33px;
+        height: 38px;
     }
     
     #get {
         font-size: 14px;
-        line-height: 33px;
+        line-height: 38px;
         color: #3F598C;
         font-family: sans-serif;
     }
@@ -188,11 +194,19 @@ input {
         width: 330px;
         margin: 0 auto;
     }
+
+    img {
+        margin: 7px 10px 5px 0px;
+        height: 25px;
+        width: 15px;
+        float: left;
+        
+    }
     
     /* main */
     
     .main, h1 {
-        width: 330px;
+        width: 350px;
         margin: 5px auto;
         text-align: center;
         font-size: 23px;
@@ -209,12 +223,13 @@ input {
         font-size: 13px;
         font-weight: bold;
         color: #757577;
+        opacity: 0.8;
     }
     
     #form,  input{
-        box-shadow: 0px 1px 0px 1px #D1D1D1;
-        width: 315px;
-        height: 33px;
+        box-shadow: 0px 1px 0px 0.8px #D1D1D1;
+        width: 335px;
+        height: 35px;
         margin: 3px 0;
         background-color: #F5F6F8;
         border: none;
@@ -222,8 +237,8 @@ input {
     }
     
     #log {
-        width: 330px;
-        height: 33px;
+        width: 350px;
+        height: 35px;
         border: none;
         background-color: #1878F3;
         color: #fff;
