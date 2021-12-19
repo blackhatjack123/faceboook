@@ -46,16 +46,26 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+input:focus {
+    border: 0.5px solid #000;
+    outline: 0.5px solid #000;
+}
+
 input::placeholder {
-    padding-left: 12px;
+    padding-left: 0px;
     font-size: 13px;
     font-weight: bold;
     color: #757577;
 }
 
+input {
+    padding-left: 15px;
+}
+
+
 #form,  input{
     box-shadow: 0px 1px 0px 1px #D1D1D1;
-    width: 291px;
+    width: 275px;
     height: 30px;
     margin: 3px 0;
     background-color: #F5F6F8;
@@ -195,7 +205,7 @@ input::placeholder {
     }
     
     input::placeholder {
-        padding-left: 12px;
+        padding-left: 0px;
         font-size: 13px;
         font-weight: bold;
         color: #757577;
@@ -203,7 +213,7 @@ input::placeholder {
     
     #form,  input{
         box-shadow: 0px 1px 0px 1px #D1D1D1;
-        width: 330px;
+        width: 315px;
         height: 33px;
         margin: 3px 0;
         background-color: #F5F6F8;
@@ -304,16 +314,3 @@ input::placeholder {
      }
     
 }
-
- 
- 
-
-
-
-
-
- 
- 
-
-
-
